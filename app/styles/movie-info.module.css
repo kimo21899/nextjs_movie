@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.poster {
+  border-radius: 20px;
+  max-width: 70%;
+  place-self: center;
+}
+
+.info {
+  display: flex;
+  line-height: 1.3;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.sub_info {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  color: #babac1;
+}
+
+.age_box {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 1px 3px;
+  line-height: 18px;
+  color: white;
+  vertical-align: top;
+  background: #2e2f31;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.overview {
+  font-size: 0.8em;
+  display: flex;
+  line-height: 1.3;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.homepage {
+  font-size:0.9em;  
+}

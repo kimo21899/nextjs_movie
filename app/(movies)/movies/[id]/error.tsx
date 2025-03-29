@@ -1,5 +1,5 @@
 "use client"
 
 export default function ErrorPage(){
-  return <h3>shomething bloke...</h3>
+  return <h3>something bloke...</h3>
 }

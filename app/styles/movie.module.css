@@ -10,6 +10,7 @@
   max-width: 100%;
   min-height: 100%;
   border-radius: 10px;
+  object-fit: cover;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -21,6 +22,18 @@
   opacity: 1;
 }
 
+.title {
+  max-width: 100%;
+  font-size: 0.8em;
+  line-height: 1.2;
+  color: hsla(0, 0%, 100%, .87);
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
 .movie a {
+  transition: color .1s;
   text-align: center;
 }

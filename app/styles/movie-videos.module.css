@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.header {
+  font-size: 2rem;
+  line-height: 28px;
+}
+
+.video_box {
+  width: 100% !important;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.video_box iframe {
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.video_box iframe:hover {
+  opacity: 1;
+}
