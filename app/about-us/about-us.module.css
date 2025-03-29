@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.about_box {
+  display: contents;  
+
+}
+
+.about_box h1 {
+  font-size: 1.6em;  
+}
+
+.animation_box {
+  width:100%;
+  align-items: end;
+  padding-left:100px;
+  padding-top:50px;
+  max-width:800px; 
+  /* border:1px solid red; */
+}

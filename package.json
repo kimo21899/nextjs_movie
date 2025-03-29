@@ -20,13 +20,18 @@
   "homepage": "https://github.com/kimo21899/nextjs_movie#readme",
   "description": "Next.js로 만드는 영화소개 사이트",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
     "next": "^15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-lottie-player": "^2.1.0"
   },
   "devDependencies": {
     "@types/node": "22.13.14",
     "@types/react": "19.0.12",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17",
     "typescript": "5.8.2"
   }
 }
