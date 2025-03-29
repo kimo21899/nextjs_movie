@@ -1,7 +1,10 @@
+import styles from "./footer.module.css";
+
+
 export default function Footer() {
   return  (
-    <div>
+    <footer className={styles.footer}>
       <h4> &copy; kimosoft. Next JS is great!</h4>
-    </div>
+    </footer>
   )
 }

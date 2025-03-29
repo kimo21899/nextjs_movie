@@ -1,4 +1,4 @@
-import { API_URL } from "../(movies)/movies/page";
+import { API_URL } from "../(home)/page";
 
 async function getMovie(id:string) {
   await new Promise((resolve) => setTimeout(resolve, 1000));

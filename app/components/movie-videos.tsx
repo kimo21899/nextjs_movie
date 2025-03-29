@@ -1,4 +1,5 @@
-import { API_URL } from "../(movies)/movies/page";
+import { API_URL } from "../(home)/page";
+
 
 async function getVideos(id:string) {
   // await new Promise((resolve) => setTimeout(resolve, 3000));
