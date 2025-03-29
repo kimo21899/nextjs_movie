@@ -1,4 +1,4 @@
-import { API_URL } from "../(home)/page";
+import { API_URL } from "../constants";
 import styles from "../styles/movie-info.module.css";
 
 // 영화정보를 외부에서도 조회 할 수 있도록 export
