@@ -19,7 +19,7 @@ export default async function MovieHome() {
   const movies = await getMovies();
 
   return (
-    <div className={styles.container}>
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8 gap-6 p-4 pt-10 pb-10">
       {(movies).map((movie)=> (
         <Movie 
           key={movie.id}

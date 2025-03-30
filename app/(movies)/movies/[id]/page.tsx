@@ -21,13 +21,13 @@ export default async function MovieDetailPage(props: { params: IParams }) {
   const id = params.id;
 
   return (
-    <div>
+    <>
       <Suspense fallback={<h6>Loading movie info</h6>}>
         <MovieInfo id={id} />
       </Suspense>
       <Suspense fallback={<h6>Loading movie videos</h6>}>
         <MovieVideos id={id} />
       </Suspense>
-    </div>
+    </>
   )
 }
