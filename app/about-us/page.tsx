@@ -10,6 +10,9 @@ export default function AboutUs() {
           <h1>
              About Us
           </h1>
+            <h1 className="w-full bg-white font-medium shadow h-5 flex text-base">
+              Hello Tailwindcss
+            </h1>
         </div>
     </div>
   )
