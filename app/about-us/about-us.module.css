@@ -4,18 +4,17 @@
   margin-top: 0px;
 }
 
-.about_box {
-  display: contents;
+.container h1 {
+  font-size: 1.6em;  
 }
 
-.about_box h1 {
-  font-size: 1.6em;
+.about_box {
+  padding-top: 50px;
 }
 
 .animation_box {
   width:100%;
-  align-items: end;
-  padding-left:100px;
+  align-items: start;
   padding-top:50px;
   max-width:800px;
 }
