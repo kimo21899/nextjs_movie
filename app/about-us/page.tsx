@@ -8,11 +8,13 @@ export default function AboutUs() {
     <div className={styles.container}>
         <div className={styles.about_box}>
           <h1>
-             About Us
+            About Us
           </h1>
-            <h1 className="w-full bg-white font-medium shadow h-5 flex text-base">
+        </div>
+        <div className="p-4">
+          <h1 className="w-full font-medium h-5 flex text-base">
               Hello Tailwindcss
-            </h1>
+          </h1>
         </div>
     </div>
   )
