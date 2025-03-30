@@ -1,4 +1,5 @@
-import styles from "./about-us.module.css";
+import Image from "next/image";
+import Banner from "../components/banner/banner";
 
 export const metadata = {
   title: 'ABOUT US',
@@ -6,13 +7,8 @@ export const metadata = {
 
 export default function AboutUs() {
   return (
-    <div className={styles.container}>
-        <h1>
-          About Us
-        </h1>
-        <div className={styles.about_box}>
-          <p>next.js 학습용 프로젝트입니다.</p>
-        </div>
-    </div>
+   <>
+    <Banner/>
+   </>
   )
 }
